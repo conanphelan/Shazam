@@ -13,6 +13,13 @@ When you click the **Knit** button a document will be generated that includes bo
 summary(cars)
 ```
 
+Let's add a new chunk
+```{r}
+mean(cars$speed)
+
+```
+
+
 You can also embed plots, for example:
 
 ```{r, echo=FALSE}
